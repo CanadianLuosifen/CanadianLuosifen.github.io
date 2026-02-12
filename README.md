@@ -19,4 +19,4 @@ I enjoy solving problems and sharing them, with an interest towards my gaming ho
 [Nikke Process Terminator Repository (C source code, deprecated as developers patched original bug)](https://github.com/CanadianLuosifen/Nikke_Cleaner)
 
 ## Contact Me
-[Contact Me via email](fangchenw@gmail.com)
+[Contact Me via email](mailto:fangchenw@gmail.com)
