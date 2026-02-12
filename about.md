@@ -13,7 +13,7 @@ delivering tested, reliable software solutions.
 
 - Languages: Java, JavaScript, SQL, Python, HTML/CSS, C#, PHP, Papyrus, GDScript
 - Frameworks & Libraries: Bootstrap, React (Academic Exposure), Node.js 
-(Academic Exposure), **Currently learning Angular** 
+(Academic Exposure), currently learning Angular
 - Databases & ORMs: MySQL, SQL Server, Relational Database Design 
 - Tools & Platforms: Git/GitHub, IntelliJ, REST API Development, Azure, VS Code, 
 Bash 
@@ -33,14 +33,14 @@ Development.
 ## Projects
 
 -Java Testing and Quality Assurance | Mohawk College | October 2025 | 
-https://github.com/CanadianLuosifen/Test-Cases-JUnit 
+[JUnit Test Repo Link](https://github.com/CanadianLuosifen/Test-Cases-JUnit) 
   - Designed and implemented a complete JUnit test suite for a production-style 
 library, focusing on test coverage, edge cases, and validation methods. 
   - Applied test-driven development principles to enhance an existing codebase, 
 demonstrating ability to ensure software quality and prevent defects—directly 
 applicable to developing and testing microservices endpoints. 
 - Skyrim Special Edition – Vilkas Not Interactable Bug Fix – Nexus Mods | July 2024 
-| https://www.nexusmods.com/skyrimspecialedition/mods/124217 
+| [Nexus Mods Link](https://www.nexusmods.com/skyrimspecialedition/mods/124217) 
   - Performed root-cause analysis and debugged a complex scripting interaction 
 (Papyrus) within a commercial game engine, demonstrating strong problem-solving 
 skills. 
