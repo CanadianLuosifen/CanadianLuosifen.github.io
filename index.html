@@ -25,22 +25,72 @@
     </header>
 </div>
 <nav class="navbar navbar-expanded sticky-top bg-dark">
-    <a id="Homepage" class="btn btn-primary disabled">Homepage</a>
-    <a id="Education" class="btn btn-info" href="education.html">Education</a>
-    <a id="Skills" class="btn btn-info" href="skills.html">Skills</a>
-    <a id="Projects" class="btn btn-success" href="projects.html">Projects</a>
-    <a id="Contact Me" class="btn btn-info" href="contact.html">Contact Me</a>
+    <div class="btn-group">
+    <a id="Homepage" class="btn btn-primary" href="#introduction">Homepage</a>
+    <a id="Education" class="btn btn-secondary" href="#education">Education</a>
+    <a id="Skills" class="btn btn-info" href="#skills">Skills</a>
+    <a id="Projects" class="btn btn-success" href="#projects">Projects</a>
+    <a id="Contact Me" class="btn btn-info" href="#contact">Contact Me</a>
+    <a id="resume" class="btn btn-secondary" href="FangchenWangResume.pdf" target="_blank">Resume</a>
+    </div>
 </nav>
 <div class="container-fluid">
-    <main>
-        <h1>Greetings!</h1>
+    <main class="d-flex flex-column">
+        <div id="introduction">
+        <h2 class="m-3">Greetings!</h2>
         <p>I am Fangchen Wang, a second year student in Mohawk College's Software Development program,
              interested in full stack development. I enjoy working with a variety of programming languages and frameworks,
               and I'm always eager to learn new technologies and improve my skills.
                I have 16 years of hands on experience working in a long-term care environment,
                 and know intimately what digital solutions are needed to support residents and staff.
                  In my spare time I also enjoy playing and modding computer games,
-                  and have released some plug-ins for popular games like Skyrim.</p>
+                  and have released some plug-ins for popular games like Skyrim.
+        </p>
+        <p class="text-center"><img src="SkyrimSE.jpg" alt="Skyrim logo"></p>
+        </div>
+
+        <div id="education" class="content-div">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Mohawk College</strong>, Software Development, 2024-2027 (expected graduation), current GPA: 4.0, Dean's Honour List</li>
+            <li><strong>McMaster University</strong>, Bachelor of Science in Kinesiology, 2006-2010</li>
+        </ul>
+        </div>
+
+        <div id="skills" class="content-div">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: HTML/CSS, Java, Python, JavaScript, PHP, C#, SQL, GDScript, Papyrus</li>
+            <li>Frameworks and Tools: Bootstrap, React, Node.js, Git, Azure, Godot</li>
+            <li>Soft Skills: Problem-solving, teamwork, communication</li>
+        </ul>
+        </div>
+
+        <div id="projects" class="content-div">
+        <h2>Projects</h2>
+        <div>
+            <p><strong>Web App UI/UX Prototype: <a href="https://canadianluosifen.github.io/Mohawk-College-Room-Booker-Web-App-UI-UX-Prototype/index.html">Mohawk College Room Booker</a></strong></p>
+            <p>Designed and developed a responsive web application prototype for a college project using HTML, CSS, and JavaScript. The prototype is interactive and simulates the core functionality of a room booking system.</p>
+            <p class="text-center"><img class="img-fluid half-size margin-spaced" src="collegeroombooker.png" alt="Mohawk College Room Booker Web App UI/UX Prototype"></p>
+        </div>
+            <p><strong>Skyrim Modding</strong>: Created and released several mods for Skyrim, including a bug fix and patch.
+             These mods have been downloaded over a thousand times and received positive feedback from the community.</p>
+             <p><strong>Vilkas Not Interactable Bug Fix:</strong></p>
+             <p>This bug fix plug-in restores player interaction after certain quest triggers failed to run during heavy script loads. The fix was implemented using Bethesda's Creation Kit game editor,
+            using their own programming language called Papyrus. This work is available publicly on Nexus Mods here, with more than 1000 downloads so far:</p>
+            <p><a class="btn btn-primary" href="https://www.nexusmods.com/skyrimspecialedition/mods/124217?tab=description">Vilkas Not Interactable Bug Fix</a></p>
+             <p class="text-center"><img class="img-fluid half-size margin-spaced" src="vilkas.webp" alt="Vilkas Not Interactable Bug Fix"></p>
+            <p><strong>Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch:</strong></p>
+            <p>This patch resolves a conflict between two popular Skyrim mods so that the original functionality for both is preserved and working correctly.</p>
+            <p><a class="btn btn-primary" href="https://www.nexusmods.com/skyrimspecialedition/mods/124218?tab=description">Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch</a></p>
+            <p class="text-center"><img class="img-fluid half-size margin-spaced" src="HFextendedSkyrimAEGrowablesPatch.webp" alt="Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch"></p>
+        </div>
+
+        <div id="contact" class="text-center">
+        <h2>Contact Me</h2>
+        <p>You can reach me via email at <a href="mailto:fangchen.wang@mohawkcollege.ca">fangchen.wang@mohawkcollege.ca</a> or <a href="mailto:fangchenw@gmail.com">fangchenw@gmail.com</a></p>
+        <p>See the rest of my work on <a href="https://github.com/CanadianLuosifen"> my GitHub</a></p>
+        </div>
     </main>
 </div>
 <footer class="border border-2 border-dark text-center">

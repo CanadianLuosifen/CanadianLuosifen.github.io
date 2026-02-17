@@ -106,3 +106,16 @@ h1,h2 {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
+.content-div {
+    margin: 20px;
+}
+
+.half-size {
+    max-width: 50%;
+    height: auto;
+}
+
+.margin-spaced {
+    margin: 20px;
+}
