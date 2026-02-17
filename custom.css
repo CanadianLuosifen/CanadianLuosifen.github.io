@@ -106,6 +106,7 @@ h1,h2 {
 
 .content-div {
     margin: 20px;
+    padding: 10px;
 }
 
 .half-size {
@@ -115,4 +116,8 @@ h1,h2 {
 
 .margin-spaced {
     margin: 20px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
 }
