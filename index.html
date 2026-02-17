@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fangchen Wang's Portfolio</title>
+    <title>Fangchen Wang's Portfolio Page</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
@@ -24,20 +24,27 @@
         </div>
     </header>
 </div>
-<nav class="navbar navbar-expanded sticky-top bg-dark">
-    <div class="btn-group">
-    <a id="Homepage" class="btn btn-primary" href="#introduction">Homepage</a>
-    <a id="Education" class="btn btn-secondary" href="#education">Education</a>
-    <a id="Skills" class="btn btn-info" href="#skills">Skills</a>
-    <a id="Projects" class="btn btn-success" href="#projects">Projects</a>
-    <a id="Contact Me" class="btn btn-info" href="#contact">Contact Me</a>
-    <a id="resume" class="btn btn-secondary" href="FangchenWangResume.pdf" target="_blank">Resume</a>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#introduction">Homepage</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact Me</a>
+        <a class="nav-link" href="FangchenWangResume.pdf" target="_blank">Resume</a>
+      </div>
     </div>
+  </div>
 </nav>
-<div class="container-fluid">
+<div class="container">
     <main class="d-flex flex-column">
         <div id="introduction">
-        <h2 class="m-3">Greetings!</h2>
+        <h2>Greetings!</h2>
         <p>I am Fangchen Wang, a second year student in Mohawk College's Software Development program,
              interested in full stack development. I enjoy working with a variety of programming languages and frameworks,
               and I'm always eager to learn new technologies and improve my skills.
@@ -46,7 +53,7 @@
                  In my spare time I also enjoy playing and modding computer games,
                   and have released some plug-ins for popular games like Skyrim.
         </p>
-        <p class="text-center"><img src="SkyrimSE.jpg" alt="Skyrim logo"></p>
+        <p class="text-center"><img src="SkyrimSE.jpg" class="img-fluid half-size" alt="Skyrim logo"></p>
         </div>
 
         <div id="education" class="content-div">
@@ -59,6 +66,7 @@
 
         <div id="skills" class="content-div">
         <h2>Skills</h2>
+        <p>I have a wide range of technical and soft skills, including:</p>
         <ul>
             <li>Programming Languages: HTML/CSS, Java, Python, JavaScript, PHP, C#, SQL, GDScript, Papyrus</li>
             <li>Frameworks and Tools: Bootstrap, React, Node.js, Git, Azure, Godot</li>
@@ -69,18 +77,17 @@
         <div id="projects" class="content-div">
         <h2>Projects</h2>
         <div>
-            <p><strong>Web App UI/UX Prototype: <a href="https://canadianluosifen.github.io/Mohawk-College-Room-Booker-Web-App-UI-UX-Prototype/index.html">Mohawk College Room Booker</a></strong></p>
+            <p><strong>Web App UI/UX Prototype: </strong></p>
             <p>Designed and developed a responsive web application prototype for a college project using HTML, CSS, and JavaScript. The prototype is interactive and simulates the core functionality of a room booking system.</p>
+            <a class="btn btn-primary" href="https://canadianluosifen.github.io/Mohawk-College-Room-Booker-Web-App-UI-UX-Prototype/index.html">Mohawk College Room Booker</a>
             <p class="text-center"><img class="img-fluid half-size margin-spaced" src="collegeroombooker.png" alt="Mohawk College Room Booker Web App UI/UX Prototype"></p>
         </div>
-            <p><strong>Skyrim Modding</strong>: Created and released several mods for Skyrim, including a bug fix and patch.
-             These mods have been downloaded over a thousand times and received positive feedback from the community.</p>
-             <p><strong>Vilkas Not Interactable Bug Fix:</strong></p>
+             <p><strong>Skyrim SE mod: Vilkas Not Interactable Bug Fix:</strong></p>
              <p>This bug fix plug-in restores player interaction after certain quest triggers failed to run during heavy script loads. The fix was implemented using Bethesda's Creation Kit game editor,
             using their own programming language called Papyrus. This work is available publicly on Nexus Mods here, with more than 1000 downloads so far:</p>
             <p><a class="btn btn-primary" href="https://www.nexusmods.com/skyrimspecialedition/mods/124217?tab=description">Vilkas Not Interactable Bug Fix</a></p>
              <p class="text-center"><img class="img-fluid half-size margin-spaced" src="vilkas.webp" alt="Vilkas Not Interactable Bug Fix"></p>
-            <p><strong>Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch:</strong></p>
+            <p><strong>Skyrim SE mod: Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch:</strong></p>
             <p>This patch resolves a conflict between two popular Skyrim mods so that the original functionality for both is preserved and working correctly.</p>
             <p><a class="btn btn-primary" href="https://www.nexusmods.com/skyrimspecialedition/mods/124218?tab=description">Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch</a></p>
             <p class="text-center"><img class="img-fluid half-size margin-spaced" src="HFextendedSkyrimAEGrowablesPatch.webp" alt="Hearthfire Extended and Skyrim Anniversary - Growable Plants Patch"></p>
