@@ -1,0 +1,108 @@
+* {    
+ margin: 0;
+ padding: 0;
+}
+body {
+    background-color: beige;
+}
+@keyframes sun {
+    0% {transform: translateY(200px);
+        background-color: red;}
+    50% {transform: translateY(0);
+        background-color: yellow;}  
+    100% {transform: translateY(200px);
+        background-color: red;}
+}
+@keyframes rolling {
+    0% {transform: translateY(10px) rotate(0deg) scale(1.1);}
+    50% {transform: translateY(-10px) rotate(180deg);}
+    100% {transform: translateY(10px) rotate(360deg) scale(1.1);}
+}
+@keyframes anchor {
+    0% {transform: scale(1.0);}
+    50% {background-color: goldenrod; transform: scale(1.2);}
+    100% {transform: scale(1.0);}
+}
+@keyframes daylight {
+    0% {background-color: black;}
+    50% {background-color: skyblue;}
+    100% {background-color: black;}
+}
+@keyframes moving {
+    0% {transform: translateX(75vw);}
+    50% {transform: translateX(0vw);}
+    100% {transform: translateX(-75vw);}
+}
+p {
+    margin-bottom: 0;
+}
+header {
+    overflow: hidden;
+}
+h1,h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+#sun {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+    border-radius: 50%;
+    animation-name: sun;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#sky {
+    height: 180px;
+    animation-name: daylight;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#mountain {
+    max-height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    animation-name: moving;
+    animation-duration: 90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#godot {
+    text-align: center;
+    animation-name: daylight;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#godotanim {
+    position: relative;
+    max-height: 100px;
+    z-index: 3;
+    animation-name: rolling;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#ground {
+    position: relative;
+    background-color: beige;
+    z-index: 2;
+}
+#Homepage:hover {
+    animation-name: anchor;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#page2:hover {
+    animation-name: anchor;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
